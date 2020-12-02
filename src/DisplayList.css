@@ -1,0 +1,46 @@
+.rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.gridwrap{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #7b8cd8;
+}
+.cardwrap{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #7b8cd8;
+    
+}
+.symbolcard{
+    background-color: #fae484;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200;
+}
+.bigcard{
+    display: flex;
+    flex-direction: column;
+}
+.iconwrap{
+    display: inline;
+}
+
+.aggregatortotal{
+    flex-direction: row;
+    justify-content: center;
+}
+
+
